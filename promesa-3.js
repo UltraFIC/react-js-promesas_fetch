@@ -8,7 +8,7 @@ function fcnSumarLento( numero ){
     return promesa; */
     return new Promise(function(resolve, reject){
         setTimeout(function(){
-            resolve( numero + 1 );
+            resolve( numero + 10 );
             }, 800);
     });
 }
